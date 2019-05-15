@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    margin: 50px 50px;
+    border-collapse: collapse;
+    font-size: 30px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th:hover {
+    background: violet;
+    cursor: pointer;
+}
