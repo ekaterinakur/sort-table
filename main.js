@@ -6,7 +6,7 @@ thead.onclick = (e) => {
 
 function sortTable(col, dataType) {
   const tbody = document.getElementById('tbody');
-  let tbodyRows = [].slice.call(tbody.rows);
+  let tbodyRows = [...tbody.rows];
 
   if (dataType === 'number') {
     tbodyRows.sort((current, next) => {
